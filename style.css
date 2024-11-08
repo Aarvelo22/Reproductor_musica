@@ -14,16 +14,36 @@
     font-weight: 400;
 
 }
-
+body{
+    background-color: #202022;
+}
 
 .navbar{
     width: 362px;
     height: 1500px;
     display: flex;
     padding: 50px 40px;
+    background-color: #202022;
+    color: #ffffff;
+    display: flex;
+    border: 1px solid #ffffff;
     
 }
-.navbar{
-    border: 1px solid #000;
+.navbar__container{
+    display: flex;
+    flex-direction: column;
 
+
+
+}
+
+.navbar__container__logo{
+    display: flex;
+    align-items: end;
+    
+}
+.navbar__container__logo h1{
+    font-weight: 800;
+    font-size: 1.5rem;
+    
 }
