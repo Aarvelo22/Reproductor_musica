@@ -15,3 +15,15 @@
 
 }
 
+
+.navbar{
+    width: 362px;
+    height: 1500px;
+    display: flex;
+    padding: 50px 40px;
+    
+}
+.navbar{
+    border: 1px solid #000;
+
+}
