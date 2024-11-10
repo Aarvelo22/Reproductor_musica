@@ -18,7 +18,8 @@
 body {
     background-color: #202022;
     height: 100vh;
-    overflow-y: hidden;
+    display: flex;
+   
 }
 
 /* navbar completo */
@@ -31,8 +32,9 @@ body {
     color: #ffffff;
     display: flex;
     border: 1px solid #ffffff;
+    opacity: 0.8;
     height: 100vh;
-    overflow-y: hidden;
+   
 
     /* caja contenedora de los elementos principales */
 
@@ -117,4 +119,39 @@ body {
     background-color: #202022;
 }
 /* Inicio section horizontal musica */
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    height: 1500px;
+    width: 1150px;
+    padding: 47px 40px;
+}
 
+.section__reproductor{
+    display: flex;
+    flex-direction: row;
+    padding: ;
+    opacity: 0.8;
+    gap: 21px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.section__reproductor__play{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+   align-items: center;
+}
+
+.section__reproductor__cardsong{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid #ffffff;
+    padding: 10px 15px;
+    
+}
+.section__reproductor__cardsong__desc{
+    padding: 0px 22px;
+}
